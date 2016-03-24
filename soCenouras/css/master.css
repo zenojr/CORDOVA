@@ -25,6 +25,29 @@ label{
     background-image: url(imgs/iconBebidas.svg);
   }
 
+  :checked + label {
+    background-color: #E4876D;
+  }
+
+  label{
+    width: 50%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  label[for=opcao-bolos]{
+    left: 0;
+  }
+
+  label[for=opcao-bebidas]{
+    right: 0;
+  }
+
+  .menu{
+    margin-bottom: 100px;
+  }
+
 #opcao-bolos:checked ~ #menu-bebidas,
 #opcao-bebidas:checked ~ #menu-bolos{
   display: none;
