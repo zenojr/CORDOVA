@@ -46,6 +46,7 @@ label{
 
   .menu{
     margin-bottom: 100px;
+    width: 100%;
   }
 
 #opcao-bolos:checked ~ #menu-bebidas,
@@ -55,8 +56,4 @@ label{
 
 input[type=radio]{
   display: none;
-}
-
-menu{
-  width: 100%;
 }
